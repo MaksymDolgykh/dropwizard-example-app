@@ -53,5 +53,10 @@ curl -H "Content-Type: application/json" -X POST -d '{"fullName":"Other Person",
 curl -X GET http://localhost:8080/person
 ```
 
+## dropwizard-micrometer
+This application provides an example of usage of [dropwizard-micrometer](https://github.com/MaksymDolgykh/dropwizard-micrometer)
+package to expose system, JVM, HTTP and JDBI metrics as a prometheus endpoint in admin connector.
+The prometheus endpoint is available at `http://localhost:8082/prometheus`.
+
 ## License
 This project is licensed under the Apache License 2.0 ([LICENSE](./LICENSE.TXT))
