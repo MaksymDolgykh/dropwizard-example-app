@@ -5,13 +5,13 @@ database:
   driverClass: org.postgresql.Driver
 
   # the username
-  user: postgres
+  user: ${POSTGRES_USERNAME:-postgres}
 
   # the password
   password: ${POSTGRES_PASSWORD}
 
   # the JDBC URL
-  url: jdbc:postgresql://localhost/example
+  url: jdbc:postgresql://${POSTGRES_HOST:-localhost}/${POSTGRES_DATABASE:-example}
 
   maxWaitForConnection: 3s
   validationQuery: "/* Health Check */ SELECT 1"
