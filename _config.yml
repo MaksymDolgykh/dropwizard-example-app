@@ -1,0 +1,7 @@
+version: 1.0.0
+author: Maksym Dolgykh
+description: Example dropwizard application that utilizes dropwizard-micrometer
+repository: https://github.com/MaksymDolgykh/dropwizard-example-app
+google_site_verification: O4U1_nz2en_ImlO-GKIKxGofqKJ9u2us99PohiCouwY
+plugins:
+  - jekyll-sitemap
