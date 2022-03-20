@@ -58,5 +58,7 @@ This application provides an example of usage of [dropwizard-micrometer](https:/
 package to expose system, JVM, HTTP and JDBI metrics as a prometheus endpoint in admin connector.
 The prometheus endpoint is available at `http://localhost:8082/prometheus`.
 
+There are more details on dropwizar-micrometer usage in this [doc](./docs/dropwizard-micrometer.md)
+
 ## License
 This project is licensed under the Apache License 2.0 ([LICENSE](./LICENSE.TXT))
