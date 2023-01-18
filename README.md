@@ -33,7 +33,7 @@ Replace `<YOUR_PASSWORD>` with the password.
 
 * To initialize database run
 ```shell script
-java -jar target/dropwizard-example-1.0.0-SNAPSHOT.jar db migrate config/example.yml
+java -jar target/dropwizard-example-app-1.0.0-SNAPSHOT.jar db migrate config/example.yml
 ```
 
 * To run the application
